@@ -78,8 +78,8 @@ summary {
 body {
   margin: 0;
   position: relative;
-  background-color: #F2F1EC;
-  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  font-family: "brother-1816", sans-serif;
   text-align: center;
 }
 
@@ -202,11 +202,11 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0 0 0.67em;
-  font-family: "Montserrat", sans-serif;
+  font-family: "brother-1816", sans-serif;
   margin: 0;
   text-align: center;
   color: #fff;
-  font: 400 44px/1.1 "Montserrat", sans-serif;
+  font: 400 44px/1.1 "brother-1816", sans-serif;
   font-size: 26px;
   font-weight: 300;
   display: block;
@@ -376,18 +376,18 @@ address {
 }
 
 p {
-  font: 400 20px/28px "Montserrat", sans-serif;
+  font: 400 20px/28px "brother-1816", sans-serif;
   color: #000;
 }
 
 h2 {
   text-align: left;
-  color: #2C3944;
-  font-size: 40px;
-  font-weight: 200;
+  color: #073C57;
+  font-size: 50px;
   text-transform: uppercase;
+  font-weight: 200;
   line-height: 1.2;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "oswald", sans-serif !important;
 }
 
 h3 {
@@ -397,7 +397,7 @@ h3 {
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "brother-1816", sans-serif;
 }
 
 .progress {
@@ -447,9 +447,9 @@ details {
 figcaption {
   display: block;
   text-align: center;
-  font: 400 18px/1 "Montserrat", sans-serif;
+  font: 400 18px/1 "brother-1816", sans-serif;
   text-transform: uppercase;
-  color: #FFA32F;
+  color: #5EB88F;
 }
 
 strong {
@@ -457,7 +457,7 @@ strong {
   font-weight: 400;
   display: block;
   font-size: 28px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "brother-1816", sans-serif;
   text-transform: uppercase;
 }
 
@@ -479,6 +479,7 @@ header address {
 header .address {
   text-align: left;
   display: flex;
+  align-items: center;
   color: #000;
   font-size: 18px;
   line-height: 1.25;
@@ -486,17 +487,17 @@ header .address {
   letter-spacing: 0.55px;
 }
 header .address:hover {
-  color: #FFA32F;
+  color: #5EB88F;
 }
 header .address i:before {
-  color: #FFA32F;
+  color: #5EB88F;
   font-size: 22px;
   margin-left: -10px;
   margin-right: 15px;
-  margin-top: 9px;
+  margin-top: -5px;
 }
 header #nav {
-  padding: 20px 10px;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   max-width: 1300px;
@@ -506,18 +507,18 @@ header #nav {
 }
 header #nav .btn {
   margin: 0;
-  padding: 14px 30px 13px;
+  padding: 18px 30px 13px;
   text-transform: uppercase;
   display: flex;
   transition: 0.3s all ease;
   flex-wrap: wrap;
   justify-content: center;
   font-size: 18px;
-  background-color: #FFA32F;
+  background-color: #5EB88F;
   max-width: 470px;
   display: flex;
-  color: #000;
-  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-family: "brother-1816", sans-serif;
   font-weight: 600;
   border-radius: 30px;
 }
@@ -533,16 +534,19 @@ header #nav .btn span {
   font-weight: 600;
 }
 header #nav .btn:hover {
-  background-color: #505050;
+  background-color: #03104B;
   color: #fff;
+}
+header #nav .logo img {
+  max-width: 240px;
 }
 header #nav #header-details .pho {
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 35px;
 }
 header #nav #header-details .pho:hover {
-  color: #FFA32F;
+  color: #5EB88F;
 }
 header #nav #mobile-btns {
   width: 100%;
@@ -578,7 +582,7 @@ header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
   width: 100%;
 }
 header #nav #mobile-btns .phone {
-  background-color: #000;
+  background-color: #03104B;
   color: #fff;
   font-size: 20px;
   line-height: 1.3;
@@ -596,7 +600,7 @@ header #nav #mobile-btns #mobile-special .container {
   padding: 5px;
 }
 header #nav #mobile-btns #mobile-special .container h4 {
-  color: #505050;
+  color: #03104B;
   font-size: 22px;
   margin: 0;
 }
@@ -623,20 +627,20 @@ header #nav #mobile-btns #mobile-special .container small {
   margin-bottom: 0;
 }
 .fix-nav header .logo img {
-  max-height: 80px;
+  max-height: 125px;
 }
 
 #safe-bar {
   width: 100%;
   position: relative;
-  background-color: #505050;
+  background: rgb(94, 184, 143);
+  background: linear-gradient(90deg, rgb(94, 184, 143) 0%, rgb(14, 30, 94) 100%);
   z-index: 10;
   box-shadow: 1.6px 2.5px 13px rgba(7, 8, 8, 0.35);
   color: #fff;
-  font: 400 24px/1.2 "Montserrat", sans-serif;
+  font: 400 24px/1.2 "brother-1816", sans-serif;
   padding: 10px;
   text-align: center;
-  letter-spacing: 1px;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
@@ -651,7 +655,7 @@ header #nav #mobile-btns #mobile-special .container small {
 .pho {
   display: flex;
   color: #000;
-  font: 700 37px/30px "Montserrat", sans-serif;
+  font: 700 37px/30px "brother-1816", sans-serif;
 }
 .pho span {
   display: block;
@@ -659,17 +663,17 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "brother-1816", sans-serif;
 }
 .pho:hover {
-  color: #FFA32F;
+  color: #5EB88F;
 }
 .pho i {
   display: flex;
   align-items: center;
 }
 .pho i:before {
-  color: #FFA32F;
+  color: #5EB88F;
   font-size: 22px;
   margin-left: 0px;
   margin-right: 15px;
@@ -707,7 +711,7 @@ header #nav #mobile-btns #mobile-special .container small {
   position: relative;
   margin: 0;
   max-width: 1040px;
-  background-color: #505050;
+  background-color: #03104B;
   padding: 20px 10px 30px;
   box-shadow: 1.6px 2.5px 7px rgba(7, 8, 8, 0.35);
   flex: 0 1 544px;
@@ -718,17 +722,16 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: 0;
   text-align: center;
   color: #fff;
-  font: 200 40px/1.1 "Montserrat", sans-serif;
+  font: 200 50px/1.1 "oswald", sans-serif;
   position: relative;
   line-height: 1;
   margin-top: 0;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
+  font-family: "oswald", sans-serif;
 }
 .personalized h2 span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "brother-1816", sans-serif;
   letter-spacing: normal;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 300;
   text-transform: none;
   display: block;
@@ -738,17 +741,16 @@ header #nav #mobile-btns #mobile-special .container small {
 .personalized h1 {
   position: relative;
   line-height: 1;
-  text-transform: uppercase;
   margin-top: 0;
   font-weight: 200;
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
+  font-family: "oswald", sans-serif;
+  font-size: 50px;
 }
 .personalized h1 span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "brother-1816", sans-serif;
   letter-spacing: normal;
   text-transform: none;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 300;
   display: block;
   margin-bottom: 5px;
@@ -769,7 +771,7 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 22px;
   line-height: 1.25;
   font-weight: 300;
-  font-family: "Montserrat", sans-serif;
+  font-family: "brother-1816", sans-serif;
 }
 .address:hover {
   color: #000;
@@ -781,16 +783,16 @@ header #nav #mobile-btns #mobile-special .container small {
   display: inline-block;
   margin: 3px auto;
   padding: 12px 30px;
-  color: #FFA32F;
+  color: #5EB88F;
   font: 500 18px/1 "Playfair Display", serif;
   transition: border 0.3s;
-  background-color: #FFA32F;
+  background-color: #5EB88F;
   letter-spacing: 1.8px;
   border-radius: 7px;
 }
 .btn:hover {
-  background-color: #FFA32F;
-  background-color: #FFA32F;
+  background-color: #5EB88F;
+  background-color: #5EB88F;
   color: #000;
   color: #000;
 }
@@ -804,13 +806,13 @@ header #nav #mobile-btns #mobile-special .container small {
   color: #000;
   font: 500 18px/1 "Playfair Display", serif;
   transition: border 0.3s;
-  background-color: #FFA32F;
+  background-color: #5EB88F;
   letter-spacing: 1.8px;
   border-radius: 7px;
 }
 .btn-alt:hover {
-  background-color: #FFA32F;
-  background-color: #FFA32F;
+  background-color: #5EB88F;
+  background-color: #5EB88F;
   color: #000;
   color: #000;
 }
@@ -856,36 +858,36 @@ header #nav #mobile-btns #mobile-special .container small {
   bottom: 100px;
   right: 20%;
 }
-#banner figcaption {
-  position: absolute;
-  bottom: 80px;
-  font-size: 16px;
-  left: 25%;
-  color: #000;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 5px 20px;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.65px;
-}
 
 #banner-bar {
   position: relative;
   top: -80px;
-  background-color: #fff;
+  background-color: #03104B;
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 1px 3px 3px lightgray;
   max-width: 1200px;
 }
+#banner-bar figcaption {
+  position: absolute;
+  top: -26px;
+  font-size: 16px;
+  right: 0;
+  color: #000;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px 20px;
+  font-family: "brother-1816", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.65px;
+}
 #banner-bar #top-dentist {
   display: none;
 }
 #banner-bar h2 {
-  font-family: "Montserrat", sans-serif !important;
-  font-size: 30px;
-  color: #000;
+  font-family: "brother-1816", sans-serif !important;
+  font-size: 32px;
+  color: #fff;
   text-transform: none;
   margin: 20px 30px 20px 60px;
   font-weight: 400;
@@ -954,8 +956,8 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 
 #credentials {
-  border-top: 5px solid #FFA32F;
-  border-bottom: 5px solid #FFA32F;
+  border-top: 5px solid #5EB88F;
+  border-bottom: 5px solid #5EB88F;
   margin: 50px auto;
 }
 #credentials > div {
@@ -1022,7 +1024,7 @@ header #nav #mobile-btns #mobile-special .container small {
 .list ul li {
   width: 100%;
   color: #fff;
-  font: 400 24px/1.2 "Montserrat", sans-serif;
+  font: 400 24px/1.2 "brother-1816", sans-serif;
   letter-spacing: 0.6px;
   padding-left: 32px;
   padding-top: 10px;
@@ -1032,7 +1034,7 @@ header #nav #mobile-btns #mobile-special .container small {
 .list ul li:before {
   content: "\e832";
   font-family: "fontello";
-  color: #FFA32F;
+  color: #5EB88F;
   font-size: 0.9em;
   position: absolute;
   top: 10px;
@@ -1043,8 +1045,8 @@ header #nav #mobile-btns #mobile-special .container small {
   max-width: 1140px;
   margin: 70px auto 20px;
   box-shadow: 1px 4px 6px lightgray;
-  border-radius: 20px;
-  background-color: #fff;
+  border-radius: 5px;
+  background-color: #03104B;
   padding: 20px;
 }
 .looking p {
@@ -1054,6 +1056,8 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: auto;
   padding: 15px 10px;
   text-align: center;
+  -webkit-box-align: center;
+  color: #fff;
   align-items: center;
 }
 .looking p span {
@@ -1066,7 +1070,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: 30px auto;
 }
 .looking .flex-ed span {
-  color: #000;
+  color: #fff;
   font-size: 38px;
   text-align: center;
   font-weight: 700;
@@ -1094,6 +1098,11 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 30px 30px 0;
   text-align: center;
 }
+.insurance .container > span {
+  display: block;
+  margin-bottom: 20px;
+  opacity: 0.4;
+}
 .insurance #insurance-list, .insurance #awards-list {
   margin: 20px auto;
   display: flex;
@@ -1113,11 +1122,11 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 10px 20px 15px;
   margin: 10px auto -15px;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "oswald", sans-serif;
 }
 .insurance h2 span {
   margin: 0 10px;
-  color: #505050;
+  color: #03104B;
 }
 .insurance h2:before {
   content: "";
@@ -1150,7 +1159,7 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 .insurance #disclaimer {
   opacity: 0.4;
-  font: 400 14px/1 "Montserrat", sans-serif;
+  font: 400 14px/1 "brother-1816", sans-serif;
   margin-top: 20px;
   text-align: center;
 }
@@ -1170,34 +1179,12 @@ header #nav #mobile-btns #mobile-special .container small {
   text-align: left;
   padding: 5px;
 }
-#dentist article h2 {
-  text-transform: none;
-}
 #dentist article h2 span {
-  color: #505050;
+  color: #03104B;
 }
 #dentist figure {
   position: relative;
   margin-bottom: -1px;
-}
-#dentist figure a {
-  width: 100%;
-  left: 0;
-  position: absolute;
-  bottom: 0;
-  color: #000;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 10px;
-  text-align: center;
-  margin: auto;
-  background-color: rgba(255, 255, 255, 0.9);
-}
-#dentist figure a:hover {
-  color: #FFA32F;
 }
 
 .caption {
@@ -1205,14 +1192,14 @@ header #nav #mobile-btns #mobile-special .container small {
   display: table;
   margin: -20px auto 20px;
   padding: 0 5px;
-  color: #FFA32F;
+  color: #5EB88F;
 }
 .caption a {
-  color: #FFA32F;
+  color: #5EB88F;
   display: inline-block;
   padding: 10px;
   text-align: center;
-  font: 400 16px/1 "Montserrat", sans-serif;
+  font: 400 16px/1 "brother-1816", sans-serif;
   bottom: 0;
   margin: auto;
 }
@@ -1250,7 +1237,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: 0;
 }
 #review-container .comment p {
-  font: 400 32px/40px "Montserrat", sans-serif;
+  font: 400 32px/40px "brother-1816", sans-serif;
   margin-top: 0;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1262,7 +1249,7 @@ header #nav #mobile-btns #mobile-special .container small {
   flex-wrap: wrap;
 }
 #review-container .comment #caption .caption2 {
-  font: 700 18px/1 "Montserrat", sans-serif;
+  font: 700 18px/1 "brother-1816", sans-serif;
   text-transform: uppercase;
   margin: 10px 20px 10px 0;
   letter-spacing: 1.95px;
@@ -1282,14 +1269,14 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 10px 20px 15px;
   margin: auto;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "oswald", sans-serif;
   text-align: center;
   max-width: 1100px;
   margin-bottom: 20px;
 }
 #practice h2 span {
   margin: 0 10px;
-  color: #505050;
+  color: #03104B;
 }
 #practice h2:before {
   content: "";
@@ -1338,7 +1325,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin-left: 14px;
 }
 #practice .pager span.cycle-pager-active {
-  background-color: #FFA32F;
+  background-color: #5EB88F;
 }
 
 #contact {
@@ -1417,7 +1404,7 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 22px;
   letter-spacing: 0.03em;
   font-weight: 700;
-  color: #FFA32F;
+  color: #5EB88F;
   text-align: center;
   margin: auto;
   text-transform: uppercase;
@@ -1429,9 +1416,9 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 .hours p {
   font-size: 17px;
-  color: #FFA32F;
+  color: #5EB88F;
   line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+  font-family: "brother-1816", sans-serif;
   text-align: left !important;
 }
 
@@ -1456,7 +1443,7 @@ footer {
   display: block;
   z-index: 102;
   padding-top: 30px;
-  background-color: #505050;
+  background-color: #03104B;
 }
 footer .flex-ed {
   justify-content: space-evenly;
@@ -1468,7 +1455,7 @@ footer .flex-ed #footer-info, footer .flex-ed #map {
   height: 450px;
 }
 footer #footer-info {
-  padding: 50px 30px;
+  padding: 10px 30px;
   background-color: #fff;
   border-radius: 10px;
   display: flex;
@@ -1476,6 +1463,9 @@ footer #footer-info {
   align-items: center;
   max-width: 470px;
   justify-content: center;
+}
+footer #footer-info img {
+  max-width: 250px;
 }
 footer #footer-info p {
   text-transform: uppercase;
@@ -1493,7 +1483,7 @@ footer h2 {
   font-size: 65px;
 }
 footer h2 span {
-  color: #505050;
+  color: #03104B;
 }
 footer h3 {
   font-weight: 700;
@@ -1515,14 +1505,14 @@ footer #contact h3 {
 }
 footer .phone {
   font-size: 31px;
-  color: #FFA32F;
-  margin: 20px auto 0;
+  color: #5EB88F;
+  margin: 0 auto;
   font-weight: 700;
   display: block;
   letter-spacing: 0.28px;
 }
 footer .phone:hover {
-  color: #505050;
+  color: #03104B;
 }
 footer .phone small {
   font-size: 19px;
@@ -1536,7 +1526,7 @@ footer .address {
   margin: 5px;
 }
 footer .address:hover {
-  color: #FFA32F;
+  color: #5EB88F;
 }
 
 .copy {
@@ -1544,7 +1534,7 @@ footer .address:hover {
   background-color: #000;
   margin: auto;
   letter-spacing: 1px;
-  font: 300 14px/1.4 "Montserrat", sans-serif;
+  font: 300 14px/1.4 "brother-1816", sans-serif;
   color: #fff;
   text-transform: uppercase;
 }
@@ -1556,7 +1546,7 @@ footer .address:hover {
   line-height: 18px;
 }
 .copy a {
-  color: #FFA32F;
+  color: #5EB88F;
 }
 .copy a:hover {
   color: #fff;
@@ -1645,7 +1635,111 @@ footer .address:hover {
   color: #fff;
   text-transform: uppercase;
   font-size: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "brother-1816", sans-serif;
+}
+
+/* -- video -- */
+[data-player],
+[data-vimeo],
+[data-embed] {
+  position: relative;
+}
+
+[data-player] .play,
+[data-embed] .close,
+[data-vimeo] .close {
+  background-color: #00a5be;
+  color: #fff;
+  padding: 11px;
+  text-transform: uppercase;
+}
+
+[data-player] .play:hover,
+[data-embed] .close:hover,
+[data-vimeo] .close:hover {
+  background-color: #464646;
+  color: #fff;
+}
+
+[data-embed] .play {
+  position: absolute;
+  z-index: 1100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+[data-embed] .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+[data-embed] .close i:before {
+  transform: rotate(45deg);
+}
+
+.vimeo[class*=elem-], .youtube[class*=elem-] {
+  width: 440px;
+}
+
+.youtube, .vimeo {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  font-size: 0;
+}
+
+.youtube:before,
+.vimeo:before,
+.vimeo:after,
+.youtube:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vimeo:before,
+.youtube:before {
+  content: "";
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+}
+
+.vimeo:after,
+.youtube:after {
+  font-size: 70px;
+  color: #ff0000;
+  font-family: "fontello";
+  font-weight: 400;
+  margin: 0;
+  font-style: normal;
+  content: "\e80e";
+}
+
+.vimeo:after {
+  color: rgb(0, 173, 239);
+}
+
+.vimeo:hover:after,
+.youtube:hover:after {
+  color: #4d4d4d;
+}
+
+.vimeo.active:before,
+.vimeo.active:after,
+.youtube.active:before,
+.youtube.active:after {
+  display: none;
+}
+
+#exceptional.active {
+  height: 500px;
+  width: 500px;
+  display: grid;
+  align-content: center;
 }
 
 /* FIXED TABS */
@@ -1661,7 +1755,7 @@ footer .address:hover {
 
 #fixed-tabs a {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 400;
   background-color: #7d7e82;
   color: #fff;
   position: relative;
@@ -1688,8 +1782,9 @@ footer .address:hover {
 #fixed-tabs em {
   font-size: 14px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
+  margin-top: 4px;
 }
 
 #fixed-tabs strong {
@@ -1697,11 +1792,12 @@ footer .address:hover {
 }
 
 #fixed-tabs .ra, #fixed-tabs .map {
-  background-color: #FFA32F;
+  background-color: #5EB88F;
 }
 
 #fixed-tabs .call {
-  background-color: #F2F1EC;
+  background-color: #1B75BC;
+  color: #fff;
 }
 
 @media (max-width: 1000px) {
@@ -1818,6 +1914,10 @@ footer .address:hover {
   }
 }
 @media (max-width: 1000px) {
+  #exceptional.active {
+    width: 100%;
+    height: auto;
+  }
   h2 {
     text-align: center;
     display: flex;
@@ -1849,7 +1949,7 @@ footer .address:hover {
     display: none;
   }
   header #nav .logo {
-    margin: 20px;
+    margin: 10px 20px;
   }
   .phone {
     font-size: 24px;
@@ -1905,6 +2005,7 @@ footer .address:hover {
   }
   #dentist figure a {
     bottom: 60px;
+    max-height: 47px;
   }
   #reviews {
     padding: 0;
@@ -1964,6 +2065,9 @@ footer .address:hover {
   }
   .review-stamp {
     left: 0;
+  }
+  #review-container .comment #caption .star {
+    margin: auto;
   }
 }
 @media (min-width: 900px) {
@@ -2046,8 +2150,11 @@ footer .address:hover {
   }
   header .logo {
     width: 100%;
-    margin: 10px auto;
+    margin: 10px 20px;
     max-width: 100%;
+  }
+  header .logo img {
+    max-width: 200px;
   }
   header .header-info {
     display: flex;
@@ -2059,7 +2166,7 @@ footer .address:hover {
   header .header-info .phone {
     font-size: 21px;
     padding: 10px;
-    background-color: #505050;
+    background-color: #03104B;
     color: #fff;
     flex: 0 1 50%;
   }
@@ -2068,7 +2175,7 @@ footer .address:hover {
   }
   #safe-bar {
     color: #fff;
-    background-color: #505050;
+    background-color: #03104B;
   }
   #safe-bar span:nth-of-type(2) {
     display: none;
@@ -2122,7 +2229,7 @@ footer .address:hover {
   }
   .lists {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto;
     padding: 20px 0 0;
     width: 100%;
   }
@@ -2144,6 +2251,7 @@ footer .address:hover {
   }
   .lists.odd .personalized {
     order: -1;
+    margin-top: 0;
   }
   #stamp {
     position: static;
@@ -2180,10 +2288,14 @@ footer .address:hover {
   #reviews #review-container .comment p {
     font-size: 24px;
     text-align: center;
+    line-height: 34px;
   }
   #reviews #review-container .comment .caption2 {
     font-size: 18px;
     width: 100%;
+  }
+  footer #footer-info {
+    padding: 10px;
   }
   #practice {
     padding-bottom: 20px;
@@ -2244,7 +2356,7 @@ footer .address:hover {
     margin: auto;
   }
   #banner {
-    border-bottom: 15px solid #FFA32F;
+    border-bottom: 15px solid #5EB88F;
   }
   #safe-bar {
     order: -2;
@@ -2377,6 +2489,7 @@ footer .address:hover {
     background-color: #fff;
     padding: 8px;
     position: static;
+    font-size: 14px;
   }
   #banner .reader-stamp {
     position: relative;
@@ -2460,7 +2573,7 @@ footer .address:hover {
     font-size: 14px;
   }
   h2 {
-    font-size: 32px;
+    font-size: 42px;
   }
   .insurance h2 {
     margin: 10px 0 -15px;
