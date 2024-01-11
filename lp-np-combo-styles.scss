@@ -1,11 +1,11 @@
 $white: #fff;
 $star: #febb21;
-$primary: #5EB88F;
-$secondary: #1B75BC;
-$tertiary:#03104B;
+$primary: #678E49;
+$secondary: #384385;
+$tertiary:#384385;
 $text: #000;
-$font: "brother-1816", sans-serif;
-$font2: "oswald", sans-serif;
+$font: 'Montserrat', sans-serif;
+$font2: 'Montserrat', sans-serif;
 
 
 /* keyframes */
@@ -110,7 +110,7 @@ address{font-style:normal!important}
 .fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}
 .star:before {font-size:28px;font-family:'fontello';font-weight:400;margin:0;font-style:normal;content:'\e80f \e80f \e80f \e80f \e80f';color:$star;letter-spacing:8.4px}
 p{font:400 20px/28px $font;color:$text}
-h2{text-align:left;color: #073C57;font-size:50px;text-transform:uppercase;font-weight:200;line-height:1.2;font-family:$font2!important;}
+h2{text-align:left;color: #2E2E2E;font-size:50px;font-weight:500;line-height:1.2;font-family:$font2!important;}
 h3{font-size:32px;line-height:1.41;margin-top:10px}
 h2,h3,h4,h5,h6{font-family:$font}
 .progress{vertical-align:baseline}
@@ -134,7 +134,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
         i:before {color: $primary;font-size: 22px;margin-left: -10px;margin-right: 15px;margin-top: -5px;}
     }
 	#nav{padding: 10px;display:flex;flex-wrap:wrap;max-width:1300px;justify-content:space-between;margin:auto;align-items:center;
-		.btn{margin: 0;padding: 18px 30px 13px;text-transform:uppercase;display: flex;transition: 0.3s all ease;flex-wrap: wrap;justify-content: center;font-size:18px;background-color: $primary;max-width: 470px;display:flex;color: #fff;font-family: $font;font-weight: 600;border-radius: 30px;
+		.btn{margin: 0;padding: 18px 30px 13px;text-transform:uppercase;display: flex;transition: 0.3s all ease;flex-wrap: wrap;justify-content: center;font-size:18px;background-color: $primary;max-width: 470px;display:flex;color: #fff;font-family: $font;font-weight: 700;letter-spacing: normal;border-radius: 30px;
 			i:before {margin-right: 10px;margin-top: -2px;}
 			span {display: block;width: 100%;font-size: 44px;text-transform: uppercase;font-weight: 600;}
 			&:hover {background-color: $tertiary;color: #fff;}
@@ -155,7 +155,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 				flex-wrap: wrap;
 				padding: 10px;
 				justify-content: center;
-				line-height: 1.3;
+				line-height: 1;
 				color: #fff;
 				border-radius: 0;
 				font-size: 14px;
@@ -174,7 +174,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 					width: 100%;
 				}
 			  }
-			.phone {background-color: $tertiary;color: #fff;font-size: 20px;line-height: 1.3;
+			.phone {background-color: #F5F6F8;color: $text;font-size: 20px;line-height: 1.3;
 				span {text-transform: uppercase;font-size: 16px;font-weight: 700;letter-spacing: 1px;}
 			}
 			#mobile-special {
@@ -196,8 +196,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 #safe-bar {
     width: 100%;
 	position: relative;
-	background: rgb(94,184,143);
-	background: linear-gradient(90deg, rgba(94,184,143,1) 0%, rgba(14,30,94,1) 100%); 
+	background: $tertiary; 
 	z-index: 10;
 	-webkit-box-shadow: 1.6px 2.5px 13px rgba(7,8,8,0.35);
 	box-shadow: 1.6px 2.5px 13px rgba(7,8,8,0.35);
@@ -264,7 +263,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		margin: 0;
 		text-align: center;
 		color: $white;
-		font: 200 50px/1.1 $font2;
+		font: 500 50px/1.1 $font2;
 		position: relative;
 		line-height: 1;
 		margin-top: 0;
@@ -273,7 +272,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 			font-family: $font;
 			letter-spacing: normal;
 			font-size: 24px;
-			font-weight: 300;
+			font-weight: 400;
 			text-transform: none;
 			display: block;
 			margin-bottom: 5px;
@@ -284,7 +283,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		position: relative;
 		line-height: 1;
 		margin-top: 0;
-		font-weight: 200;
+		font-weight: 500;
 		font-family: $font2;
 		font-size: 50px;
 		span {
@@ -292,7 +291,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 			letter-spacing: normal;
 			text-transform: none;
 			font-size: 24px;
-			font-weight: 300;
+			font-weight: 400;
 			display: block;
 			margin-bottom: 5px;
 		}
@@ -452,20 +451,11 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		bottom: 100px;
 		right: 20%;
 	}
-}
-#banner-bar {
-	position: relative;
-	top: -80px;
-	background-color: $tertiary;
-	margin: 0 auto;
-	border-radius: 10px;
-	box-shadow: 1px 3px 3px lightgray;
-	max-width: 1200px;
 	figcaption {
 		position: absolute;
-		top: -26px;
+		bottom: 80px;
 		font-size: 16px;
-		right: 0;
+		left: 25%;
 		color: $text;
 		background: rgba(255,255,255,0.8);
 		padding: 5px 20px;
@@ -474,11 +464,20 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		font-weight: 700;
 		letter-spacing: .65px;
 	}
+}
+#banner-bar {
+	position: relative;
+	top: -80px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 1px 3px 3px lightgray;
+	max-width: 1200px;
 	#top-dentist {display:none;}
 	h2 {
 		font-family: $font!important;
 		font-size: 32px;
-		color: #fff;
+		color: $text;
 		text-transform:none;
 		margin: 20px 30px 20px 60px;
 		font-weight: 400;
@@ -620,17 +619,17 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 	margin: 70px auto 20px;
 	box-shadow: 1px 4px 6px lightgray;
 	border-radius: 5px;
-	background-color: $tertiary;
+	background-color: #fff;
 	padding: 20px;
 	p {
 		font-size: 20px;
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 30px;
 		margin: auto;
 		padding: 15px 10px;
 		text-align: center;
 		-webkit-box-align: center;
-		color: #fff;
+		color: $text;
 		-ms-flex-align: center;
 		align-items: center;
 		span {
@@ -663,7 +662,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 }
 .insurance {
 	text-align: left;
-	padding: 10px 0 0;
+	margin: 30px auto;
 	position: relative;
 	overflow: hidden;
 	.container {
@@ -761,6 +760,13 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 	figure {
 		position: relative;
 		margin-bottom: -1px;
+		figcaption {position: absolute;bottom: 0;width: 100%;padding: 10px;background: rgba(255,255,255,0.9);
+			a {color: $text;font-weight: 500;font-weight: 600;
+				letter-spacing: 1.4px;
+				&:hover {color: $secondary;}
+			}
+			span {margin: 0 10px;}
+		}
 	}
 }
 .caption {
@@ -791,7 +797,7 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 }
 #review-container {
 	position: relative;
-	max-width: 1200px;
+	max-width: 1400px;
 	color: $white;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
@@ -810,11 +816,12 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		margin: auto;
 		img {margin: 0;}
 		p {
-			font: 400 32px/40px $font;
+			font: 400 31px/40px $font;
 			margin-top: 0;
 			margin-top: 10px;
+			line-height: 47px;
 			margin-bottom: 10px;
-			color: #fff;
+			color: #000;
 			letter-spacing: .03em;
 		}
 		#caption {display:flex;flex-wrap:wrap;
@@ -848,7 +855,6 @@ header{position:relative;padding:0;z-index:100;background-color: #fff;
 		font-family: $font2;
 		text-align: center;
 		max-width: 1100px;
-		margin-bottom: 20px;
 		span {margin: 0 10px;color: $tertiary;}
 		&:before {
 			content: '';
@@ -1057,8 +1063,9 @@ footer {
 		border-radius: 10px;
 		display: flex;
 		flex-wrap: wrap;
+		align-content: center;
 		align-items: center;
-		max-width: 470px;
+		max-width: 490px;
 		justify-content: center;
 		img {max-width: 250px;}
 		p {
@@ -1070,7 +1077,7 @@ footer {
 				span {font-size: 32px;}
 		}
 	}
-	h2 {text-align:center;color: $white;font-size: 65px;
+	h2 {text-align:center;color: $white;font-size: 60px;
 		span {color: $tertiary}
 	}
 	h3 {
@@ -1097,9 +1104,10 @@ footer {
 	.phone {
 		font-size: 31px;
 		color: $primary;
-		margin: 0 auto;
+		margin: 20px auto 0;
 		font-weight: 700;
 		display: block;
+		width: 100%;
 		letter-spacing: .28px;
 		&:hover {
 			color: $tertiary;
@@ -1320,7 +1328,6 @@ color: #000;
 #fixed-tabs { display:none;position: fixed; right: 0; text-align: center; line-height: 1; font-size: 0; z-index: 510;}
 #fixed-tabs a { font-size: 12px; font-weight: 400;background-color: #7d7e82; color: #fff; position: relative; overflow: hidden; transition: width .3s, background-color .3s;}
 #fixed-tabs .ra {flex: 2;}
-#fixed-tabs .call, #fixed-tabs .ra, #fixed-tabs .map {color: #000;}
 #fixed-tabs i { font-size: 16px; }
 #fixed-tabs i, #fixed-tabs i:before { margin: 0 3px 0 0; }
 #fixed-tabs em { font-size: 14px; font-style: normal; font-weight: 500; text-transform: uppercase; margin-top: 4px;}
@@ -1436,6 +1443,7 @@ color: #000;
 		flex-wrap: wrap;}
 	.personalized h2 span {width: 100%;}
 	.personalized h2 {display:block;}
+	footer .address {font-size: 18px;}
 	header {
 		address {
 			.address {
@@ -1721,8 +1729,7 @@ color: #000;
 		}
 		.personalized {
 			margin: 30px 20px 0;
-			border-radius: 20px;
-			padding: 35px 20px 10px;
+			padding: 30px 20px 0;
 			height: auto;
 			.list {
 				max-width: 750px;
@@ -1800,12 +1807,13 @@ color: #000;
 	}
 	#dentist {
 		figure {
-			margin-top: -20px;
+			margin-top: -20px;padding-bottom: 20px;
 		}
 	}
 	footer {
 		h2 {
 			font-size: 46px;
+			justify-content:center;
 		}
 		.split {
 			>div {
@@ -1824,16 +1832,16 @@ color: #000;
 }
 @media (max-width: 700px) {
 	main {display:flex;flex-wrap:wrap;}
-	#banner-bar {border-radius: 0;background-color: #F3F3F0;order: -1;
+	#banner-bar {border-radius: 0;background-color: #fff;order: -1;
 		img {margin: 20px auto 40px;}
 		h2 {color: $text;}
 	}
 	#banner-bar div {margin: auto;}
-	#banner {border-bottom: 15px solid $primary;}
+	#banner {border-bottom: 15px solid $tertiary;width: 100%;}
 	#safe-bar {order: -2;}
 	#banner-bar #top-dentist {display:block!important;margin: 40px auto;}
 	#credentials span {flex: 100%;margin: 30px auto;}
-	.personalized {
+	.personalized {max-width: 375px;
 		h1 {
 			font-size: 36px;
 		}
@@ -1918,7 +1926,8 @@ color: #000;
 	}
 	footer {
 		h2 {
-			font-size: 40px;
+			font-size: 48px;
+			justify-content:center;
 			margin-top: 0;
 			padding: 0 10px;
 		}
