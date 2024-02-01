@@ -79,7 +79,7 @@ body {
   margin: 0;
   position: relative;
   background-color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "halyard-display", sans-serif;
   text-align: center;
 }
 
@@ -202,11 +202,11 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0 0 0.67em;
-  font-family: "Montserrat", sans-serif;
+  font-family: "halyard-display", sans-serif;
   margin: 0;
   text-align: center;
   color: #fff;
-  font: 400 44px/1.1 "Montserrat", sans-serif;
+  font: 400 44px/1.1 "halyard-display", sans-serif;
   font-size: 26px;
   font-weight: 300;
   display: block;
@@ -376,17 +376,18 @@ address {
 }
 
 p {
-  font: 400 20px/28px "Montserrat", sans-serif;
+  font: 300 20px/30px "halyard-display", sans-serif;
   color: #000;
 }
 
 h2 {
   text-align: left;
-  color: #2E2E2E;
-  font-size: 50px;
-  font-weight: 500;
+  color: #4C4354;
+  font-size: 48px;
+  font-weight: 300;
+  text-transform: uppercase;
   line-height: 1.2;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "lato", sans-serif !important;
 }
 
 h3 {
@@ -396,7 +397,7 @@ h3 {
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "halyard-display", sans-serif;
 }
 
 .progress {
@@ -446,9 +447,9 @@ details {
 figcaption {
   display: block;
   text-align: center;
-  font: 400 18px/1 "Montserrat", sans-serif;
+  font: 400 18px/1 "halyard-display", sans-serif;
   text-transform: uppercase;
-  color: #678E49;
+  color: #976990;
 }
 
 strong {
@@ -456,7 +457,7 @@ strong {
   font-weight: 400;
   display: block;
   font-size: 28px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "halyard-display", sans-serif;
   text-transform: uppercase;
 }
 
@@ -486,10 +487,10 @@ header .address {
   letter-spacing: 0.55px;
 }
 header .address:hover {
-  color: #678E49;
+  color: #976990;
 }
 header .address i:before {
-  color: #678E49;
+  color: #976990;
   font-size: 22px;
   margin-left: -10px;
   margin-right: 15px;
@@ -506,20 +507,20 @@ header #nav {
 }
 header #nav .btn {
   margin: 0;
-  padding: 18px 30px 13px;
+  padding: 13px 30px;
   text-transform: uppercase;
   display: flex;
   transition: 0.3s all ease;
   flex-wrap: wrap;
   justify-content: center;
   font-size: 18px;
-  background-color: #678E49;
+  background-color: #976990;
   max-width: 470px;
   display: flex;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  letter-spacing: normal;
+  font-family: "halyard-display", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
   border-radius: 30px;
 }
 header #nav .btn i:before {
@@ -534,11 +535,8 @@ header #nav .btn span {
   font-weight: 600;
 }
 header #nav .btn:hover {
-  background-color: #384385;
+  background-color: #4C4354;
   color: #fff;
-}
-header #nav .logo img {
-  max-width: 240px;
 }
 header #nav #header-details .pho {
   margin-bottom: 10px;
@@ -546,7 +544,7 @@ header #nav #header-details .pho {
   font-size: 35px;
 }
 header #nav #header-details .pho:hover {
-  color: #678E49;
+  color: #976990;
 }
 header #nav #mobile-btns {
   width: 100%;
@@ -582,8 +580,8 @@ header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
   width: 100%;
 }
 header #nav #mobile-btns .phone {
-  background-color: #F5F6F8;
-  color: #000;
+  background-color: #4C4354;
+  color: #fff;
   font-size: 20px;
   line-height: 1.3;
 }
@@ -600,7 +598,7 @@ header #nav #mobile-btns #mobile-special .container {
   padding: 5px;
 }
 header #nav #mobile-btns #mobile-special .container h4 {
-  color: #384385;
+  color: #4C4354;
   font-size: 22px;
   margin: 0;
 }
@@ -633,11 +631,12 @@ header #nav #mobile-btns #mobile-special .container small {
 #safe-bar {
   width: 100%;
   position: relative;
-  background: #384385;
+  background: rgb(201, 164, 196);
+  background: linear-gradient(90deg, rgb(201, 164, 196) 0%, rgb(151, 105, 144) 100%);
   z-index: 10;
   box-shadow: 1.6px 2.5px 13px rgba(7, 8, 8, 0.35);
   color: #fff;
-  font: 400 24px/1.2 "Montserrat", sans-serif;
+  font: 400 24px/1.2 "halyard-display", sans-serif;
   padding: 10px;
   text-align: center;
   flex-wrap: wrap;
@@ -654,7 +653,7 @@ header #nav #mobile-btns #mobile-special .container small {
 .pho {
   display: flex;
   color: #000;
-  font: 700 37px/30px "Montserrat", sans-serif;
+  font: 700 37px/30px "halyard-display", sans-serif;
 }
 .pho span {
   display: block;
@@ -662,17 +661,17 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "halyard-display", sans-serif;
 }
 .pho:hover {
-  color: #678E49;
+  color: #976990;
 }
 .pho i {
   display: flex;
   align-items: center;
 }
 .pho i:before {
-  color: #678E49;
+  color: #976990;
   font-size: 22px;
   margin-left: 0px;
   margin-right: 15px;
@@ -710,7 +709,7 @@ header #nav #mobile-btns #mobile-special .container small {
   position: relative;
   margin: 0;
   max-width: 1040px;
-  background-color: #384385;
+  background-color: #4C4354;
   padding: 20px 10px 30px;
   box-shadow: 1.6px 2.5px 7px rgba(7, 8, 8, 0.35);
   flex: 0 1 544px;
@@ -721,14 +720,15 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: 0;
   text-align: center;
   color: #fff;
-  font: 500 50px/1.1 "Montserrat", sans-serif;
+  font: 300 50px/1.1 "lato", sans-serif;
   position: relative;
   line-height: 1;
+  text-transform: uppercase;
   margin-top: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "lato", sans-serif;
 }
 .personalized h2 span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "halyard-display", sans-serif;
   letter-spacing: normal;
   font-size: 24px;
   font-weight: 400;
@@ -741,12 +741,13 @@ header #nav #mobile-btns #mobile-special .container small {
   position: relative;
   line-height: 1;
   margin-top: 0;
-  font-weight: 500;
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "lato", sans-serif;
+  font-size: 40px;
 }
 .personalized h1 span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "halyard-display", sans-serif;
   letter-spacing: normal;
   text-transform: none;
   font-size: 24px;
@@ -770,7 +771,7 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 22px;
   line-height: 1.25;
   font-weight: 300;
-  font-family: "Montserrat", sans-serif;
+  font-family: "halyard-display", sans-serif;
 }
 .address:hover {
   color: #000;
@@ -782,16 +783,16 @@ header #nav #mobile-btns #mobile-special .container small {
   display: inline-block;
   margin: 3px auto;
   padding: 12px 30px;
-  color: #678E49;
+  color: #976990;
   font: 500 18px/1 "Playfair Display", serif;
   transition: border 0.3s;
-  background-color: #678E49;
+  background-color: #976990;
   letter-spacing: 1.8px;
   border-radius: 7px;
 }
 .btn:hover {
-  background-color: #678E49;
-  background-color: #678E49;
+  background-color: #976990;
+  background-color: #976990;
   color: #000;
   color: #000;
 }
@@ -805,13 +806,13 @@ header #nav #mobile-btns #mobile-special .container small {
   color: #000;
   font: 500 18px/1 "Playfair Display", serif;
   transition: border 0.3s;
-  background-color: #678E49;
+  background-color: #976990;
   letter-spacing: 1.8px;
   border-radius: 7px;
 }
 .btn-alt:hover {
-  background-color: #678E49;
-  background-color: #678E49;
+  background-color: #976990;
+  background-color: #976990;
   color: #000;
   color: #000;
 }
@@ -865,7 +866,7 @@ header #nav #mobile-btns #mobile-special .container small {
   color: #000;
   background: rgba(255, 255, 255, 0.8);
   padding: 5px 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "halyard-display", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.65px;
@@ -884,18 +885,18 @@ header #nav #mobile-btns #mobile-special .container small {
   display: none;
 }
 #banner-bar h2 {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "halyard-display", sans-serif !important;
   font-size: 32px;
   color: #000;
   text-transform: none;
-  margin: 20px 30px 20px 60px;
-  font-weight: 400;
+  margin: 30px 30px 30px 60px;
+  font-weight: 300;
   letter-spacing: normal;
 }
 #banner-bar .special-badge {
   position: absolute;
   left: -55px;
-  top: -45px;
+  top: -55px;
 }
 #banner-bar div {
   display: flex;
@@ -955,8 +956,8 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 
 #credentials {
-  border-top: 5px solid #678E49;
-  border-bottom: 5px solid #678E49;
+  border-top: 5px solid #976990;
+  border-bottom: 5px solid #976990;
   margin: 50px auto;
 }
 #credentials > div {
@@ -1023,7 +1024,7 @@ header #nav #mobile-btns #mobile-special .container small {
 .list ul li {
   width: 100%;
   color: #fff;
-  font: 400 24px/1.2 "Montserrat", sans-serif;
+  font: 400 24px/1.2 "halyard-display", sans-serif;
   letter-spacing: 0.6px;
   padding-left: 32px;
   padding-top: 10px;
@@ -1033,7 +1034,7 @@ header #nav #mobile-btns #mobile-special .container small {
 .list ul li:before {
   content: "\e832";
   font-family: "fontello";
-  color: #678E49;
+  color: #fff;
   font-size: 0.9em;
   position: absolute;
   top: 10px;
@@ -1045,7 +1046,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: 70px auto 20px;
   box-shadow: 1px 4px 6px lightgray;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #976990;
   padding: 20px;
 }
 .looking p {
@@ -1056,7 +1057,7 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 15px 10px;
   text-align: center;
   -webkit-box-align: center;
-  color: #000;
+  color: #fff;
   align-items: center;
 }
 .looking p span {
@@ -1121,11 +1122,11 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 10px 20px 15px;
   margin: 10px auto -15px;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "lato", sans-serif;
 }
 .insurance h2 span {
   margin: 0 10px;
-  color: #384385;
+  color: #4C4354;
 }
 .insurance h2:before {
   content: "";
@@ -1158,7 +1159,7 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 .insurance #disclaimer {
   opacity: 0.4;
-  font: 400 14px/1 "Montserrat", sans-serif;
+  font: 400 14px/1 "halyard-display", sans-serif;
   margin-top: 20px;
   text-align: center;
 }
@@ -1179,7 +1180,7 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 5px;
 }
 #dentist article h2 span {
-  color: #384385;
+  color: #4C4354;
 }
 #dentist figure {
   position: relative;
@@ -1199,7 +1200,7 @@ header #nav #mobile-btns #mobile-special .container small {
   letter-spacing: 1.4px;
 }
 #dentist figure figcaption a:hover {
-  color: #384385;
+  color: #4C4354;
 }
 #dentist figure figcaption span {
   margin: 0 10px;
@@ -1210,14 +1211,14 @@ header #nav #mobile-btns #mobile-special .container small {
   display: table;
   margin: -20px auto 20px;
   padding: 0 5px;
-  color: #678E49;
+  color: #976990;
 }
 .caption a {
-  color: #678E49;
+  color: #976990;
   display: inline-block;
   padding: 10px;
   text-align: center;
-  font: 400 16px/1 "Montserrat", sans-serif;
+  font: 400 16px/1 "halyard-display", sans-serif;
   bottom: 0;
   margin: auto;
 }
@@ -1255,7 +1256,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: 0;
 }
 #review-container .comment p {
-  font: 400 31px/40px "Montserrat", sans-serif;
+  font: 300 33px/38px "halyard-display", sans-serif;
   margin-top: 0;
   margin-top: 10px;
   line-height: 47px;
@@ -1268,7 +1269,7 @@ header #nav #mobile-btns #mobile-special .container small {
   flex-wrap: wrap;
 }
 #review-container .comment #caption .caption2 {
-  font: 700 18px/1 "Montserrat", sans-serif;
+  font: 500 18px/1 "halyard-display", sans-serif;
   text-transform: uppercase;
   margin: 10px 20px 10px 0;
   letter-spacing: 1.95px;
@@ -1288,13 +1289,13 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 10px 20px 15px;
   margin: auto;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "lato", sans-serif;
   text-align: center;
   max-width: 1100px;
 }
 #practice h2 span {
   margin: 0 10px;
-  color: #384385;
+  color: #4C4354;
 }
 #practice h2:before {
   content: "";
@@ -1343,7 +1344,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin-left: 14px;
 }
 #practice .pager span.cycle-pager-active {
-  background-color: #678E49;
+  background-color: #976990;
 }
 
 #contact {
@@ -1422,7 +1423,7 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 22px;
   letter-spacing: 0.03em;
   font-weight: 700;
-  color: #678E49;
+  color: #976990;
   text-align: center;
   margin: auto;
   text-transform: uppercase;
@@ -1434,9 +1435,9 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 .hours p {
   font-size: 17px;
-  color: #678E49;
+  color: #976990;
   line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+  font-family: "halyard-display", sans-serif;
   text-align: left !important;
 }
 
@@ -1461,7 +1462,7 @@ footer {
   display: block;
   z-index: 102;
   padding-top: 30px;
-  background-color: #384385;
+  background-color: #4C4354;
 }
 footer .flex-ed {
   justify-content: space-evenly;
@@ -1470,7 +1471,7 @@ footer .flex-ed {
   max-width: 1300px;
 }
 footer .flex-ed #footer-info, footer .flex-ed #map {
-  height: 450px;
+  height: 395px;
 }
 footer #footer-info {
   padding: 10px 30px;
@@ -1502,7 +1503,7 @@ footer h2 {
   font-size: 60px;
 }
 footer h2 span {
-  color: #384385;
+  color: #4C4354;
 }
 footer h3 {
   font-weight: 700;
@@ -1524,7 +1525,7 @@ footer #contact h3 {
 }
 footer .phone {
   font-size: 31px;
-  color: #678E49;
+  color: #976990;
   margin: 20px auto 0;
   font-weight: 700;
   display: block;
@@ -1532,7 +1533,7 @@ footer .phone {
   letter-spacing: 0.28px;
 }
 footer .phone:hover {
-  color: #384385;
+  color: #4C4354;
 }
 footer .phone small {
   font-size: 19px;
@@ -1546,7 +1547,7 @@ footer .address {
   margin: 5px;
 }
 footer .address:hover {
-  color: #678E49;
+  color: #976990;
 }
 
 .copy {
@@ -1554,7 +1555,7 @@ footer .address:hover {
   background-color: #000;
   margin: auto;
   letter-spacing: 1px;
-  font: 300 14px/1.4 "Montserrat", sans-serif;
+  font: 300 14px/1.4 "halyard-display", sans-serif;
   color: #fff;
   text-transform: uppercase;
 }
@@ -1566,7 +1567,7 @@ footer .address:hover {
   line-height: 18px;
 }
 .copy a {
-  color: #678E49;
+  color: #976990;
 }
 .copy a:hover {
   color: #fff;
@@ -1624,8 +1625,7 @@ footer .address:hover {
   border-radius: 5px;
   padding: 15px;
   font-size: 16px;
-  border: none;
-  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid;
   height: 200px;
   margin-bottom: 30px;
 }
@@ -1655,7 +1655,7 @@ footer .address:hover {
   color: #fff;
   text-transform: uppercase;
   font-size: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "halyard-display", sans-serif;
 }
 
 /* -- video -- */
@@ -1808,11 +1808,11 @@ footer .address:hover {
 }
 
 #fixed-tabs .ra, #fixed-tabs .map {
-  background-color: #678E49;
+  background-color: #976990;
 }
 
 #fixed-tabs .call {
-  background-color: #384385;
+  background-color: #4C4354;
   color: #fff;
 }
 
@@ -2185,7 +2185,7 @@ footer .address:hover {
   header .header-info .phone {
     font-size: 21px;
     padding: 10px;
-    background-color: #384385;
+    background-color: #4C4354;
     color: #fff;
     flex: 0 1 50%;
   }
@@ -2194,7 +2194,7 @@ footer .address:hover {
   }
   #safe-bar {
     color: #fff;
-    background-color: #384385;
+    background-color: #4C4354;
   }
   #safe-bar span:nth-of-type(2) {
     display: none;
@@ -2376,7 +2376,7 @@ footer .address:hover {
     margin: auto;
   }
   #banner {
-    border-bottom: 15px solid #384385;
+    border-bottom: 15px solid #4C4354;
     width: 100%;
   }
   #safe-bar {
